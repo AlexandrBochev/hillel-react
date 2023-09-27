@@ -4,6 +4,7 @@ interface IInput {
 }
 
 const Input = ({ value, onChange }: IInput) => {
+
   return (
     <input
       type="number"
